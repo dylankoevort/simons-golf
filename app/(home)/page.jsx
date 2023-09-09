@@ -35,11 +35,11 @@ const HomePage = () => {
           </p>
           <p className="py-4">
             Our Country Club represents a lifestyle that transcends the
-            ordinary. It's a place where gracious living, impeccable service,
-            and a steadfast commitment to excellence take center stage. Whether
-            you're a passionate golfer, a lover of fine dining, a fitness
-            enthusiast, or simply seeking a peaceful retreat from daily life,
-            our Club promises to surpass your expectations.
+            ordinary. It&apos;s a place where gracious living, impeccable
+            service, and a steadfast commitment to excellence take center stage.
+            Whether you&apos;re a passionate golfer, a lover of fine dining, a
+            fitness enthusiast, or simply seeking a peaceful retreat from daily
+            life, our Club promises to surpass your expectations.
           </p>
           <p className="py-4">
             Golf enthusiasts will delight in our championship courses, where
@@ -63,10 +63,10 @@ const HomePage = () => {
             by an extensive selection of wines and cocktails.
           </p>
           <p className="py-4">
-            But our Country Club is more than just facilities; it's a vibrant
-            community. Social events, gatherings, and exclusive member
+            But our Country Club is more than just facilities; it&apos;s a
+            vibrant community. Social events, gatherings, and exclusive member
             privileges create an atmosphere where lasting friendships are
-            cultivated, and cherished memories are forged. It's a place to
+            cultivated, and cherished memories are forged. It&apos;s a place to
             connect with kindred spirits, share experiences, and bask in the
             camaraderie that defines our Club.
           </p>
@@ -77,17 +77,17 @@ const HomePage = () => {
             today.
           </p>
           <p className="py-4">
-            As you explore our Country Club, you'll discover that it's not just
-            a club; it's an extraordinary destination. Whether you're seeking
-            relaxation, an active lifestyle, or a community of like-minded
-            individuals, our Club offers an unmatched experience that will
-            exceed your every expectation.
+            As you explore our Country Club, you&apos;ll discover that it&apos;s
+            not just a club; it&apos;s an extraordinary destination. Whether
+            you&apos;re seeking relaxation, an active lifestyle, or a community
+            of like-minded individuals, our Club offers an unmatched experience
+            that will exceed your every expectation.
           </p>
           <p className="py-4">
             We extend an invitation to become part of our exclusive community
             and embark on a journey of luxury, leisure, and enduring memories.
             Welcome to our Country Club, where every moment is an opportunity to
-            indulge, unwind, and savor life's finer pleasures.
+            indulge, unwind, and savor life&apos;s finer pleasures.
           </p>
         </div>
       </div>
