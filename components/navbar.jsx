@@ -8,7 +8,7 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenuOpen = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -28,9 +28,9 @@ const Navbar = () => {
             width={48}
             className="rounded-full xl:mr-8"
           />
-          <h1 className="hidden xl:block text-2xl font-medium">
+          {/* <h1 className="hidden xl:block text-2xl font-medium">
             Simon&apos;s Town Country Club
-          </h1>
+          </h1> */}
         </div>
 
         <ul className="hidden md:flex w-fit">
