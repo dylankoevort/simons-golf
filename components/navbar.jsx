@@ -2,10 +2,10 @@
 
 import React, { useState } from "react";
 import { navItems } from "@/constants";
-import { Link } from "react-scroll";
 import { TfiClose } from "react-icons/tfi";
 import { SlMenu } from "react-icons/sl";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
@@ -18,16 +18,18 @@ const Navbar = () => {
     <>
       <nav
         className="top-0 sticky z-50 flex justify-between md:justify-between items-center md:h-20 mx-auto py-4 px-4 lg:px-8 md:py-8 
-      bg-blue-500 backdrop-filter backdrop-blur-lg bg-opacity-10 md:bg-opacity-30 md:border-b firefox:bg-opacity-30"
+      bg-slate-50 backdrop-filter backdrop-blur-md bg-opacity-10 md:bg-opacity-30 md:border-b firefox:bg-opacity-30"
       >
         <div className="flex justify-center items-center">
-          <img
+          <Image
             src="/icon.png"
             alt=""
-            className="rounded-full h-12 w-12 xl:mr-8"
+            height={48}
+            width={48}
+            className="rounded-full xl:mr-8"
           />
           <h1 className="hidden xl:block text-2xl font-medium">
-            Simon's Town Country Club
+            Simon&apos;s Town Country Club
           </h1>
         </div>
 
@@ -74,7 +76,13 @@ const Navbar = () => {
         }
       >
         <div className="py-4 px-8 flex justify-between items-center">
-          <img src="/icon.png" alt="" className="rounded-full h-12 w-12" />
+          <Image
+            src="/icon.png"
+            alt=""
+            height={48}
+            width={48}
+            className="rounded-full"
+          />
           <TfiClose size={20} className="font-thin" onClick={toggleMenuOpen} />
         </div>
         <ul className="mt-20">
