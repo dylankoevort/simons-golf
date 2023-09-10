@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="top-0 sticky z-50 flex justify-between md:justify-between items-center md:h-20 mx-auto py-4 px-4 lg:px-8 md:py-8 
+        className="top-0 sticky z-50 flex justify-between md:justify-between items-center md:h-20 mx-auto py-4 px-8 md:py-8 
       bg-slate-50 backdrop-filter backdrop-blur-md bg-opacity-10 md:bg-opacity-30 md:border-b firefox:bg-opacity-30"
       >
         <div className="flex justify-center items-center">

@@ -1,5 +1,6 @@
 import React from "react";
-import { introMessage } from "@/constants";
+import Image from "next/image";
+import { homeImages } from "@/constants";
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
               Simon&apos;s Town Country Club
             </h2>
             <p className="text-xl text-white font-light text-center mt-4">
-              A picturesque course on the southern peninsula.
+              A picturesque course on the Southern Peninsula.
             </p>
           </div>
           <button className="bg-white text-black font-medium py-2 px-4 rounded mt-4 hover:bg-slate-200 transition-colors">
@@ -91,12 +92,49 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className="text-center p-8 mt-8">
-        <h1 className="text-3xl font-medium">Contact Us</h1>
-        <div className="max-w-[900px] mt-8 mx-auto font-light">
-          <p>Phone : + 27 21 786 1233</p>
-          <p>WhatsApp: +27 060 409 4798</p>
-          <p className="font-medium">McFarlane Rd, Simon&apos;s Town, 7995</p>
+      <div className="relative max-w-[90%] mx-auto p-8 grid grid-cols-2 lg:grid-cols-4 gap-8">
+        {homeImages.map((image) => (
+          <Image
+            key={image.id}
+            width={512}
+            height={342}
+            className="border-4 mx-auto h-[100%] w-[100%] md:hover:scale-125 lg:hover:scale-150"
+            alt={image.alt}
+            {...image}
+          />
+        ))}
+      </div>
+      <div className="text-center mt-16">
+        <h1 className="text-3xl font-medium">Opening Hours</h1>
+        <div className="text-left text-light mt-4 max-w-[300px] mx-auto">
+          <div className="flex justify-between items-start">
+            <p>Monday</p>
+            <p>08:00 – 19:00</p>
+          </div>
+          <div className="flex justify-between items-start">
+            <p>Tuesday</p>
+            <p>08:00 – 19:00</p>
+          </div>
+          <div className="flex justify-between items-start">
+            <p>Wednesday</p>
+            <p>08:00 – 20:00</p>
+          </div>
+          <div className="flex justify-between items-start">
+            <p>Thursday</p>
+            <p>08:00 – 19:00</p>
+          </div>
+          <div className="flex justify-between items-start">
+            <p>Friday</p>
+            <p>08:00 – 22:00</p>
+          </div>
+          <div className="flex justify-between items-start">
+            <p>Saturday</p>
+            <p>08:00 – 19:00</p>
+          </div>
+          <div className="flex justify-between items-start">
+            <p>Sunday</p>
+            <p>08:00 – 19:00</p>
+          </div>
         </div>
       </div>
     </>
