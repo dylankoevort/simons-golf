@@ -28,7 +28,7 @@ const Golf = () => {
           alt="course"
           width={768}
           height={525}
-          className="mt-8 border h-full w-auto"
+          className="mt-8 border h-full w-auto rounded"
         />
         <h1 className="text-3xl font-medium mt-16">Golf Rates</h1>
         <div>
