@@ -18,9 +18,11 @@ const HomePage = () => {
               A picturesque course on the Southern Peninsula.
             </p>
           </div>
-          <button className="bg-white text-black font-medium py-2 px-4 rounded mt-4 hover:bg-slate-200 transition-colors">
-            Join now!
-          </button>
+          <a href="/membership" target="_self" rel="noreferrer">
+            <button className="bg-white text-black font-medium py-2 px-4 rounded mt-4 hover:bg-slate-200 transition-colors">
+              Join now!
+            </button>
+          </a>
         </div>
       </div>
       <div className="text-center p-8 mt-8">
@@ -98,7 +100,7 @@ const HomePage = () => {
             key={image.id}
             width={512}
             height={342}
-            className="border-4 mx-auto h-[100%] w-[100%] md:hover:scale-125 lg:hover:scale-150"
+            className="border-4 mx-auto h-[100%] w-[100%] md:hover:scale-125 lg:hover:scale-150 rounded"
             alt={image.alt}
             {...image}
           />
