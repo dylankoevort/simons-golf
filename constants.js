@@ -20,10 +20,6 @@ export const navItems = [
     href: "/gallery",
   },
   {
-    name: "Events",
-    href: "/events",
-  },
-  {
     name: "Membership",
     href: "/membership",
   },
