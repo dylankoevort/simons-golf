@@ -36,34 +36,36 @@ const Golf = () => {
             Below are our fees for playing rounds of golf depending on your
             membership category and affiliation.
           </p>
-          <Table>
+          <Table className="text-right">
             <TableHeader>
               <TableRow className="bg-slate-500 text-white hover:bg-slate-500 text-sm md:text-lg font-light rounded-xl">
-                <TableHead>Golf Members</TableHead>
-                <TableHead className="text-right">9 Holes</TableHead>
-                <TableHead className="text-right">18 Holes</TableHead>
+                <TableHead className="text-left">Golf Members</TableHead>
+                <TableHead>9 Holes</TableHead>
+                <TableHead>18 Holes</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               <TableRow>
-                <TableCell>Normal Members</TableCell>
-                <TableCell className="text-right">R 125</TableCell>
-                <TableCell className="text-right">R 145</TableCell>
+                <TableCell className="text-left">Normal Members</TableCell>
+                <TableCell>R 125</TableCell>
+                <TableCell>R 145</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Senior Members (60+)</TableCell>
-                <TableCell className="text-right">R 100</TableCell>
-                <TableCell className="text-right">R 125</TableCell>
+                <TableCell className="text-left">
+                  Senior Members (60+)
+                </TableCell>
+                <TableCell>R 100</TableCell>
+                <TableCell>R 125</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Junior Members</TableCell>
-                <TableCell className="text-right">R 75</TableCell>
-                <TableCell className="text-right">R 95</TableCell>
+                <TableCell className="text-left">Junior Members</TableCell>
+                <TableCell>R 75</TableCell>
+                <TableCell>R 95</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Members Guest</TableCell>
-                <TableCell className="text-right">R 140</TableCell>
-                <TableCell className="text-right">R 210</TableCell>
+                <TableCell className="text-left">Members Guest</TableCell>
+                <TableCell>R 140</TableCell>
+                <TableCell>R 210</TableCell>
               </TableRow>
             </TableBody>
           </Table>
@@ -71,68 +73,78 @@ const Golf = () => {
             We welcome visitors and offer competitive rates depending on your
             age and whether you are an affiliated golf member or not.
           </p>
-          <Table>
+          <Table className="text-right">
             <TableHeader>
               <TableRow className="bg-slate-500 text-white hover:bg-slate-500 text-sm md:text-lg font-light rounded-xl">
-                <TableHead>Visitor Fees</TableHead>
-                <TableHead className="text-right">9 Holes</TableHead>
-                <TableHead className="text-right">18 Holes</TableHead>
+                <TableHead className="text-left">Visitor Fees</TableHead>
+                <TableHead>9 Holes</TableHead>
+                <TableHead>18 Holes</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               <TableRow>
-                <TableCell>Visitors Affiliated</TableCell>
-                <TableCell className="text-right">R 185</TableCell>
-                <TableCell className="text-right">R 250</TableCell>
+                <TableCell className="text-left">Visitors Affiliated</TableCell>
+                <TableCell>R 185</TableCell>
+                <TableCell>R 250</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Visitor Affiliated Senior (60+)</TableCell>
-                <TableCell className="text-right">R 140</TableCell>
-                <TableCell className="text-right">R 155</TableCell>
+                <TableCell className="text-left">
+                  Visitor Affiliated Senior (60+)
+                </TableCell>
+                <TableCell>R 140</TableCell>
+                <TableCell>R 155</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Visitor non-affiliated</TableCell>
-                <TableCell className="text-right">R 210</TableCell>
-                <TableCell className="text-right">R 265</TableCell>
+                <TableCell className="text-left">
+                  Visitor non-affiliated
+                </TableCell>
+                <TableCell>R 210</TableCell>
+                <TableCell>R 265</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Visitor non-affiliated Senior (60+)</TableCell>
-                <TableCell className="text-right">R 185</TableCell>
-                <TableCell className="text-right">R 250</TableCell>
+                <TableCell className="text-left">
+                  Visitor non-affiliated Senior (60+)
+                </TableCell>
+                <TableCell>R 185</TableCell>
+                <TableCell>R 250</TableCell>
               </TableRow>
             </TableBody>
           </Table>
           <p className="my-8">
             We also offer golf carts and equipment hire at the following rates:
           </p>
-          <Table>
+          <Table className="text-right">
             <TableHeader>
               <TableRow className="bg-slate-500 text-white hover:bg-slate-500 text-sm md:text-lg font-light rounded-xl">
-                <TableHead>Rental Fees</TableHead>
-                <TableHead className="text-right">9 Holes</TableHead>
-                <TableHead className="text-right">18 Holes</TableHead>
+                <TableHead className="text-left">Rental Fees</TableHead>
+                <TableHead>9 Holes</TableHead>
+                <TableHead>18 Holes</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               <TableRow>
-                <TableCell>Golf Carts (Members)</TableCell>
-                <TableCell className="text-right">R 190</TableCell>
-                <TableCell className="text-right">R 240</TableCell>
+                <TableCell className="text-left">
+                  Golf Carts (Members)
+                </TableCell>
+                <TableCell>R 190</TableCell>
+                <TableCell>R 240</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Golf Carts (Visitors)</TableCell>
-                <TableCell className="text-right">R 240</TableCell>
-                <TableCell className="text-right">R 315</TableCell>
+                <TableCell className="text-left">
+                  Golf Carts (Visitors)
+                </TableCell>
+                <TableCell>R 240</TableCell>
+                <TableCell>R 315</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Trolley Hire</TableCell>
-                <TableCell className="text-right">R 45</TableCell>
-                <TableCell className="text-right">R 55</TableCell>
+                <TableCell className="text-left">Trolley Hire</TableCell>
+                <TableCell>R 45</TableCell>
+                <TableCell>R 55</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Golf Clubs Hire</TableCell>
-                <TableCell className="text-right">R 210</TableCell>
-                <TableCell className="text-right">R 315</TableCell>
+                <TableCell className="text-left">Golf Clubs Hire</TableCell>
+                <TableCell>R 210</TableCell>
+                <TableCell>R 315</TableCell>
               </TableRow>
             </TableBody>
           </Table>

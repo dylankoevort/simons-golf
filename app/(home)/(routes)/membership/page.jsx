@@ -48,7 +48,7 @@ const Membership = () => {
         </p>
       </div>
 
-      <div>
+      <div className="w-full">
         <h1 className="text-xl font-bold text-center mt-8">
           2023/2024 Membership Subscriptions
         </h1>
@@ -56,131 +56,131 @@ const Membership = () => {
           Our golf fees are below, should you not wish to be affiliated then
           please remove the WPGU and HNA fees from totals below.
         </p>
-        <Table>
+        <Table className="text-right">
           <TableHeader>
             <TableRow className="bg-slate-500 text-white hover:bg-slate-500 text-sm md:text-lg font-light rounded-xl">
-              <TableHead>Golf Fees</TableHead>
-              <TableHead className="text-right">Male</TableHead>
-              <TableHead className="text-right">Male (60+)</TableHead>
-              <TableHead className="text-right">Female</TableHead>
-              <TableHead className="text-right">Female (60+)</TableHead>
+              <TableHead className="text-left">Golf Fees</TableHead>
+              <TableHead>Male</TableHead>
+              <TableHead>Male (60+)</TableHead>
+              <TableHead>Female</TableHead>
+              <TableHead>Female (60+)</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
             <TableRow>
-              <TableCell>Golf Subs</TableCell>
-              <TableCell className="text-right">R 2510</TableCell>
-              <TableCell className="text-right">R 2260</TableCell>
-              <TableCell className="text-right">R 1755</TableCell>
-              <TableCell className="text-right">R 1570</TableCell>
+              <TableCell className="text-left">Golf Subs</TableCell>
+              <TableCell>R 2510</TableCell>
+              <TableCell>R 2260</TableCell>
+              <TableCell>R 1755</TableCell>
+              <TableCell>R 1570</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>WPGU</TableCell>
-              <TableCell className="text-right">R 650</TableCell>
-              <TableCell className="text-right">R 650</TableCell>
-              <TableCell className="text-right">R 650</TableCell>
-              <TableCell className="text-right">R 650</TableCell>
+              <TableCell className="text-left">WPGU</TableCell>
+              <TableCell>R 650</TableCell>
+              <TableCell>R 650</TableCell>
+              <TableCell>R 650</TableCell>
+              <TableCell>R 650</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>HNA</TableCell>
-              <TableCell className="text-right">R 255</TableCell>
-              <TableCell className="text-right">R 255</TableCell>
-              <TableCell className="text-right">R 255</TableCell>
-              <TableCell className="text-right">R 255</TableCell>
+              <TableCell className="text-left">HNA</TableCell>
+              <TableCell>R 255</TableCell>
+              <TableCell>R 255</TableCell>
+              <TableCell>R 255</TableCell>
+              <TableCell>R 255</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>STCC</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
+              <TableCell className="text-left">STCC</TableCell>
+              <TableCell>R 670</TableCell>
+              <TableCell>R 670</TableCell>
+              <TableCell>R 670</TableCell>
+              <TableCell>R 670</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Hole-in-one</TableCell>
-              <TableCell className="text-right">R 10</TableCell>
-              <TableCell className="text-right">R 10</TableCell>
-              <TableCell className="text-right">R 10</TableCell>
-              <TableCell className="text-right">R 10</TableCell>
+              <TableCell className="text-left">Hole-in-one</TableCell>
+              <TableCell>R 10</TableCell>
+              <TableCell>R 10</TableCell>
+              <TableCell>R 10</TableCell>
+              <TableCell>R 10</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Total</TableCell>
-              <TableCell className="text-right">R 4095</TableCell>
-              <TableCell className="text-right">R 3845</TableCell>
-              <TableCell className="text-right">R 3340</TableCell>
-              <TableCell className="text-right">R 3155</TableCell>
+              <TableCell className="text-left">Total</TableCell>
+              <TableCell>R 4095</TableCell>
+              <TableCell>R 3845</TableCell>
+              <TableCell>R 3340</TableCell>
+              <TableCell>R 3155</TableCell>
             </TableRow>
           </TableBody>
         </Table>
         <p className="my-8">
           We offer students, swallows and juniors discounted golf subscriptions:
         </p>
-        <Table>
+        <Table className="text-right">
           <TableHeader>
             <TableRow className="bg-slate-500 text-white hover:bg-slate-500 text-sm md:text-lg font-light rounded-xl">
-              <TableHead>Golf Fees</TableHead>
-              <TableHead className="text-right">Swallows</TableHead>
-              <TableHead className="text-right">Juniors</TableHead>
+              <TableHead className="text-left">Golf Fees</TableHead>
+              <TableHead>Swallows</TableHead>
+              <TableHead>Juniors</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
             <TableRow>
-              <TableCell>Golf Subs</TableCell>
-              <TableCell className="text-right">R 1255</TableCell>
-              <TableCell className="text-right">R 375</TableCell>
+              <TableCell className="text-left">Golf Subs</TableCell>
+              <TableCell>R 1255</TableCell>
+              <TableCell>R 375</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>WPGU</TableCell>
-              <TableCell className="text-right">R 650</TableCell>
-              <TableCell className="text-right">R 650</TableCell>
+              <TableCell className="text-left">WPGU</TableCell>
+              <TableCell>R 650</TableCell>
+              <TableCell>R 650</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>HNA</TableCell>
-              <TableCell className="text-right">R 255</TableCell>
-              <TableCell className="text-right">R 255</TableCell>
+              <TableCell className="text-left">HNA</TableCell>
+              <TableCell>R 255</TableCell>
+              <TableCell>R 255</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>STCC</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
-              <TableCell className="text-right">-</TableCell>
+              <TableCell className="text-left">STCC</TableCell>
+              <TableCell>R 670</TableCell>
+              <TableCell>-</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Hole-in-one</TableCell>
-              <TableCell className="text-right">R 10</TableCell>
-              <TableCell className="text-right">R 10</TableCell>
+              <TableCell className="text-left">Hole-in-one</TableCell>
+              <TableCell>R 10</TableCell>
+              <TableCell>R 10</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Total</TableCell>
-              <TableCell className="text-right">R 2840</TableCell>
-              <TableCell className="text-right">R 1290</TableCell>
+              <TableCell className="text-left">Total</TableCell>
+              <TableCell>R 2840</TableCell>
+              <TableCell>R 1290</TableCell>
             </TableRow>
           </TableBody>
         </Table>
         <p className="my-8">
           In addition to golf, we offer social and squash memberships:
         </p>
-        <Table>
+        <Table className="text-right">
           <TableHeader>
             <TableRow className="bg-slate-500 text-white hover:bg-slate-500 text-sm md:text-lg font-light rounded-xl">
               <TableHead></TableHead>
-              <TableHead className="text-right">Squash</TableHead>
-              <TableHead className="text-right">Social</TableHead>
+              <TableHead>Squash</TableHead>
+              <TableHead>Social</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
             <TableRow>
-              <TableCell>Subs</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
-              <TableCell className="text-right">R 0</TableCell>
+              <TableCell className="text-left">Subs</TableCell>
+              <TableCell>R 670</TableCell>
+              <TableCell>R 0</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>STCC</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
+              <TableCell className="text-left">STCC</TableCell>
+              <TableCell>R 670</TableCell>
+              <TableCell>R 670</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell>Total</TableCell>
-              <TableCell className="text-right">R 1340</TableCell>
-              <TableCell className="text-right">R 670</TableCell>
+              <TableCell className="text-left">Total</TableCell>
+              <TableCell>R 1340</TableCell>
+              <TableCell>R 670</TableCell>
             </TableRow>
           </TableBody>
         </Table>
