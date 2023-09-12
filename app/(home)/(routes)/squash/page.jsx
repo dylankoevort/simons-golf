@@ -37,35 +37,29 @@ const Squash = () => {
             have loan racquets available for any beginner or visitor that does
             not have their equipment with them or looking to get fit.
           </p>
-          <Table className="rounded-xl">
+          <Table className="text-right">
             <TableHeader>
               <TableRow className="bg-slate-500 text-white hover:bg-slate-500 text-sm md:text-lg font-light rounded-xl">
-                <TableHead>Player Type</TableHead>
-                <TableHead className="text-right">Player Fees</TableHead>
-                <TableHead className="text-right">Lights Cost</TableHead>
+                <TableHead className="text-left">Player Type</TableHead>
+                <TableHead>Player Fees</TableHead>
+                <TableHead>Lights Cost</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
               <TableRow>
-                <TableCell>Two Squash Members</TableCell>
-                <TableCell className="text-right">R 40</TableCell>
-                <TableCell className="text-right">
-                  R 40 per 45 minutes
-                </TableCell>
+                <TableCell className="text-left">Two Squash Members</TableCell>
+                <TableCell>R 40</TableCell>
+                <TableCell>R 40 per 45 minutes</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Member + Guest</TableCell>
-                <TableCell className="text-right">R 60</TableCell>
-                <TableCell className="text-right">
-                  R 60 per 45 minutes
-                </TableCell>
+                <TableCell className="text-left">Member + Guest</TableCell>
+                <TableCell>R 60</TableCell>
+                <TableCell>R 60 per 45 minutes</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Two Guests</TableCell>
-                <TableCell className="text-right">R 80</TableCell>
-                <TableCell className="text-right">
-                  R 80 per 45 minutes
-                </TableCell>
+                <TableCell className="text-left">Two Guests</TableCell>
+                <TableCell>R 80</TableCell>
+                <TableCell>R 80 per 45 minutes</TableCell>
               </TableRow>
             </TableBody>
           </Table>
