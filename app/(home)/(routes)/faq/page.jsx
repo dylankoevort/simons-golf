@@ -11,7 +11,7 @@ const Faq = () => {
         </p>
         <div className="mt-8">
           {faqs.map((faq) => (
-            <div className="border rounded-xl p-8 my-4">
+            <div key={faq.question} className="border rounded-xl p-8 my-4">
               <h3 className="text-lg font-bold">{faq.question}</h3>
               <p className="mt-4">{faq.answer}</p>
             </div>
